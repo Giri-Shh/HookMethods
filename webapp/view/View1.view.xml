@@ -1,0 +1,11 @@
+<mvc:View controllerName="project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content />
+        <VBox >
+             <Image src="https://mir-s3-cdn-cf.behance.net/projects/404/883d2693104265.Y3JvcCwzNDYzLDI3MDksMzYwLDA.jpg"></Image>
+        <Button text="Go To Next View" width="300px" press="onPress"></Button>
+        </VBox>
+    </Page>
+</mvc:View>
